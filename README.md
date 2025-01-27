@@ -106,7 +106,7 @@ CREATE TABLE Logs (
 ### Seq Docker Configuration
 ```bash
 docker run -d --name seq -p 5341:80 -p 5342:443 -e ACCEPT_EULA=Y datalust/seq:latest
-
+```
 
 ### we can Add Custom Enrichers
 ``` code
